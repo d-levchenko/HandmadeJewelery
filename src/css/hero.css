@@ -14,6 +14,7 @@
     url('../images/hero-mobile.jpeg');
 
   @media screen and (min-resolution: 192dpi) {
+    max-width: 768px;
     background-image:
       linear-gradient(
         to bottom,
