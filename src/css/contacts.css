@@ -23,13 +23,7 @@
   font-family: var(--font-family);
 }
 
-.contacts-section {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  width: 100%;
-}
-
-/* #region ----------------------FORM-INFO -------------------- */
+/* #region ----------------------FORM -------------------- */
 .form-wrapper {
   max-width: 100%;
 }
@@ -133,10 +127,6 @@ address {
 
 /* #region ---------------TABLET-min-width 768px ------------*/
 @media only screen and (min-width: 768px) {
-  /* #region ---------Contacts-Tablet----------------- */
-  .container {
-    max-width: 768px;
-  }
   .contacts-list {
     display: flex;
     gap: 25px;
@@ -145,8 +135,7 @@ address {
   .contact-item {
     flex: 1;
   }
-  /* #endregion */
-  /* #region ---------Form-Tablet----------------- */
+
   .contact-form {
     max-width: 100%;
   }
@@ -154,22 +143,16 @@ address {
   .submit-form-button {
     max-width: 249px;
   }
-
-  /* #endregion */
 }
 /* #endregion */
+
 /* #region ---------------DESKTOP-min-width 1440px ------------ */
 @media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-
   .section-title {
     font-size: 48px;
   }
   .contacts-wrapper {
     display: flex;
-
     flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: center;
