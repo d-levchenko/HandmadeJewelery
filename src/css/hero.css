@@ -11,7 +11,7 @@
       var(--opacity-neutral-darkest-40),
       var(--opacity-neutral-darkest-40)
     ),
-    url('../images/header-mobile.jpeg');
+    url('../images/hero-mobile.jpeg');
 
   @media screen and (min-resolution: 192dpi) {
     background-image:
@@ -20,7 +20,7 @@
         var(--opacity-neutral-darkest-40),
         var(--opacity-neutral-darkest-40)
       ),
-      url('../images/header-mobile@2x.jpeg');
+      url('../images/hero-mobile@2x.jpeg');
   }
 
   /* ---- TABLET ---- */
@@ -31,7 +31,7 @@
         var(--opacity-neutral-darkest-40),
         var(--opacity-neutral-darkest-40)
       ),
-      url('../images/header-tablet.jpeg');
+      url('../images/hero-tablet.jpeg');
     @media screen and (min-resolution: 192dpi) {
       background-image:
         linear-gradient(
@@ -39,7 +39,7 @@
           var(--opacity-neutral-darkest-40),
           var(--opacity-neutral-darkest-40)
         ),
-        url('../images/header-tablet@2x.jpeg');
+        url('../images/hero-tablet@2x.jpeg');
     }
   }
 
@@ -51,7 +51,7 @@
         var(--opacity-neutral-darkest-40),
         var(--opacity-neutral-darkest-40)
       ),
-      url('../images/header-desktop.jpeg');
+      url('../images/hero-desktop.jpeg');
     @media screen and (min-resolution: 192dpi) {
       background-image:
         linear-gradient(
@@ -59,7 +59,7 @@
           var(--opacity-neutral-darkest-40),
           var(--opacity-neutral-darkest-40)
         ),
-        url('../images/header-desktop@2x.jpeg');
+        url('../images/hero-desktop@2x.jpeg');
     }
   }
 }
