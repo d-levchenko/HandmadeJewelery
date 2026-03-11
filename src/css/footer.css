@@ -22,7 +22,7 @@ padding:15px 7px;
 .logo-icon{
 width: 201px;
 height: 62px;
-fill: #191919;;
+fill: var(--color-neutral-darkest);
 }
 
 .socials-list{
@@ -56,7 +56,7 @@ margin-bottom: 24px;
 
 .nav-item{
 font-size: 18px;
-color: #191919;
+color: var(--color-neutral-darkest);
 }
 
 
@@ -71,7 +71,7 @@ text-decoration: underline;
 }
 
 .nav-link:active {
- color: #8668c7;
+ color: var(--color-blue-marguerite);
 text-decoration:none;
 }
 
@@ -81,14 +81,14 @@ text-decoration:none;
 display:flex;
 align-items:flex-start;
 justify-content: center;
-border-top: 2px solid rgba(0, 0, 0, 0.2);
+border-top: 2px solid var(--opacity-neutral-darkest-20);
 width:100%;
 }
 
 .privacy-policy-text{
 padding-top:32px;
 font-size: 14px;
-color: #191919;;
+color: var(--color-neutral-darker);
 }
 
 
