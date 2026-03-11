@@ -45,7 +45,7 @@
 .benefits-list-item-title {
     font-family: var(--second-family);
     font-size: 24px;
-    line-height: 140%;
+    line-height: 34px;
     letter-spacing: -0.01em;
     text-align: center;
     color: var(--color-neutral-darkest);
@@ -55,6 +55,7 @@
 
 .benefits-list-item-text {
     line-height: 150%;
+    line-height: 24px;
     text-align: center;
     color: var(--color-neutral-darkest);
 }
