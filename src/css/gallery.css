@@ -1,0 +1,76 @@
+.showcase-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.showcase-description {
+  text-align: center;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    gap: 32px 24px;
+  }
+
+  @media screen and (min-width: 1158px) {
+    column-gap: 32px;
+  }
+}
+
+/* -------picture size------------- */
+
+.beaded-size {
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    height: 368px;
+  }
+  @media screen and (min-width: 1158px) {
+    width: 640px;
+    height: 640px;
+  }
+}
+
+.pendant-size {
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    height: 226px;
+  }
+  @media screen and (min-width: 1158px) {
+    width: 640px;
+    height: 426px;
+  }
+}
+
+.bracelet-size {
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    height: 216px;
+  }
+  @media screen and (min-width: 1158px) {
+    width: 640px;
+    height: 426px;
+  }
+}
+
+.earrings-size {
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    height: 386px;
+  }
+  @media screen and (min-width: 1158px) {
+    width: 640px;
+    height: 640px;
+  }
+}
+/* -------------------------------- */
